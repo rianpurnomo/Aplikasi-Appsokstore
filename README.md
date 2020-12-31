@@ -3,7 +3,11 @@ Api Apdate Apss okstore Rian Purnomo (18.12.0860)
 # Aplikasi-Appsokstore
 
 
-Menampilkan isi seluruh berita
+#Penjelasan API
+API kependekan dari Application Programming Interface merupakan sebuah perangkat lunak yang dapat menerima panggilan atau permintaan dari perangkat lunak lainnya seperti aplikasi dan website yang memberikan pelayanan. Dengan kata lain API merupakan sebuah perangkat lunak yang mengijinkan atau menghubungkan dua aplikasi. Setelah itu, data tersebut diambil dan diterjemahkan oleh server yang kemudian melakukan aksi yang diperlukan sebagai hasilnya kemudian dikirimkan kembali ke smartphone anda. Setelah menerima data tersebut, aplikasi menerjemahkannya lalu memberikan informasi yang anda inginkan dengan cara yang mudah dibaca.
+
+Menampilkan isi seluruh berita dengan memasukan link url seperti berikut :
+
 Url => https://berita-news.herokuapp.com
 
 // 20190828082651
