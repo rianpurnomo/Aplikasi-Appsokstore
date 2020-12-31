@@ -13,7 +13,7 @@ import com.appsokstore.app.data.repository.AuthRepository
 import com.appsokstore.app.databinding.FragmentLoginBinding
 
 class LoginFragment : Fragment() {
-    val parent: AuthActivity by  lazy { activity as AuthActivity }
+    val parent: AuthActivity by lazy { activity as AuthActivity }
     val viewModel: AuthViewModel by lazy { AuthViewModel(AuthRepository(parent)) }
     lateinit var binding: FragmentLoginBinding
 
@@ -37,7 +37,6 @@ class LoginFragment : Fragment() {
         binding.btnRegister.setOnClickListener {
             findNavController().navigate(LoginFragmentDirections.actionLoginFragmentToRegisterFragment())
         }
-
     }
 
     private fun observe() {
